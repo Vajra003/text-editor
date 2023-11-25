@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color:rgba(53,25,9,255);
+}
+
+/*main content*/
+
+.main-content{
+    
+    width: 800px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+    background-color: wheat;
+    border-radius: 15px;
+}
+
+
+.text-editor-header{
+    background-color: wheat;
+    padding: 5px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+.text-editor-header .btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+.content{
+    height: 400px;
+    width: 758px;
+    border: 1px solid rgb(255, 255, 255);
+    border-top: 0px;
+    padding: 20px;
+    border-radius: 15px;
+}
